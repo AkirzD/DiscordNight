@@ -1,18 +1,43 @@
-/**
- * @name gothic
- * @author Disease#5663
- * @version 1.0.0
- * @description Based on Outlook Web.
- * @source https://github.com/maenDisease/Outlook
- * @invite BShu37e4jg
- * @website https://maendisease.github.io/
- * @authorId 678469587444170762
- * @BDEditor Outlook
-*/
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Fonts/Yes.css);
+
 :root {
-  --customFont: Monocraft Mediana;
+
+--Font-Used: 'Monocraft Mediana', cursive;
+
+/* https://nfld99.github.io/Better-Discord/Font_List.txt */
+
+--Font-Size: 5px ;
+
+/* mediumxx-smallx-smallsmalllargex-largexx-largesmallerlargerlengthinitialinherit; */
+
+--Font-Style: normal ;
+
+/* normalitalicobliqueinitialinherit; */
+
+--Font-Weight: 100 ;
+
+/* normalboldbolderlighternumberinitialinherit */
+
+--Font-Variant: normal ;
+
+/* normalsmall-capsinitialinherit */
+
 }
 
-/* Any custom CSS below here */
+*:not([class*="hljs"]):not(code){
 
+font-family: var(--Font-Used)!important;
 
+font-style: var(--Font-Style)!important;
+
+font-weight: var(--Font-Weight)!important;
+
+font-variant: var(--Font-Variant)!important;
+
+}
+
+.markup:not(code) {
+
+font-size: var(--Font-Size)!important;
+
+}
